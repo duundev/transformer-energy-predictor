@@ -1,9 +1,7 @@
-# model.py
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
-# Hiperparâmetros ajustados
 batch_size = 16
 block_size = 256
 learning_rate = 3e-4 
